@@ -7,7 +7,8 @@
 div {
     min-height: 150px;
     background-color: lightblue;
-    margin: 5px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .specialDiv {
@@ -17,7 +18,7 @@ div {
 
 .specialChildren {
     background-color: lightslategray;
-    height: 50PX;
+    height: 50px;
     width: 50%;
 }
 
