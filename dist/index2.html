@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Esempio 2</title>
+</head>
+<body>
+    <div>normalDiv1</div>
+    <div>normalDiv2</div>
+    <div class="specialDiv">
+        specialDiv1
+        <div class="specialChildren" data-specialvalue="valore speciale 1">
+            specialChildren1
+        </div>
+        <div class="specialChildren">
+            specialChildren2
+        </div>
+        <div class="specialChildren" data-specialvalue="valore speciale 2">
+            specialChildren3
+        </div>
+    </div>
+    <div class="specialDiv">
+        specialDiv2
+        <div class="specialChildren" data-specialvalue="valore speciale 3">
+            specialChildren2
+        </div>
+    </div>
+    <div>normalDiv3</div>
+    <div class="specialDiv">
+        specialDiv3
+        <div data-specialvalue="valore speciale 3">
+            normalChildren1
+        </div>
+        <div class="specialChildren">
+            specialChildren3
+        </div>
+        <div class="specialChildren">
+            specialChildren4
+        </div>
+    </div>
+</body>
+</html>
